@@ -1,0 +1,22 @@
+# robots.txt for drlaundry.co.id
+# Allow all search engines and ad bots
+
+User-agent: *
+Allow: /
+
+# Google Ads Bot - PENTING untuk Google Ads
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: AdsBot-Google-Mobile
+Allow: /
+
+# Google Search Bot
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Sitemap
+Sitemap: https://www.drlaundry.co.id/sitemap.xml
